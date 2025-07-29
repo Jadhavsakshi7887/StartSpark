@@ -738,51 +738,58 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <h2 class="section-title">Ready To Dominate Your Market?</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Transform Your Vision Into Reality</h3>
-                    <p>Join the elite circle of successful startups who chose StartSpark to accelerate their digital dominance. Our expert team is ready to craft your success story.</p>
-                    <a href="https://wa.me/1234567890" class="whatsapp-link" target="_blank">
-                        💬 Elite WhatsApp Consultation
-                    </a>
-                    <p style="color: #00ffff; font-weight: bold;">⚡ Instant Response Guaranteed</p>
-                </div>
-                <form class="contact-form" onsubmit="handleSubmit(event)">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required placeholder="your@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="service">Service Required</label>
-                        <select id="service" name="service">
-                            <option value="">Select your service</option>
-                            <option value="chatbot">AI Chatbot Integration</option>
-                            <option value="logo">Premium Logo Design</option>
-                            <option value="website">Future-Ready Website</option>
-                            <option value="all">Complete Digital Transformation</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Project Vision</label>
-                        <textarea id="message" name="message" placeholder="Describe your ambitious project..."></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Launch My Success</button>
-                </form>
+     <section id="contact" class="section contact">
+    <div class="container">
+        <h2 class="section-title">Ready To Dominate Your Market?</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Transform Your Vision Into Reality</h3>
+                <p>Join the elite circle of successful startups who chose StartSpark to accelerate their digital dominance. Our expert team is ready to craft your success story.</p>
+                <a href="https://wa.me/1234567890" class="whatsapp-link" target="_blank">
+                    💬 Elite WhatsApp Consultation
+                </a>
+                <p style="color: #00ffff; font-weight: bold;">⚡ Instant Response Guaranteed</p>
             </div>
+
+            <!-- 🔽 Connected to Formspree -->
+            <form class="contact-form" action="https://formspree.io/f/xkgzbead" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Required</label>
+                    <select id="service" name="service">
+                        <option value="">Select your service</option>
+                        <option value="chatbot">AI Chatbot Integration</option>
+                        <option value="logo">Premium Logo Design</option>
+                        <option value="website">Future-Ready Website</option>
+                        <option value="all">Complete Digital Transformation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Vision</label>
+                    <textarea id="message" name="message" placeholder="Describe your ambitious project..."></textarea>
+                </div>
+
+                <!-- Optional: Redirect to a Thank You page -->
+                <!-- <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you.html"> -->
+
+                <button type="submit" class="submit-btn">Launch My Success</button>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 StartSpark. All rights reserved. | Empowering the next generation of digital leaders</p>
+            <p>&copy; 2025 StartSpark. All rights reserved. | Empowering the next generation of digital leaders</p>
         </div>
     </footer>
 
